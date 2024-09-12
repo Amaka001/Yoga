@@ -1,0 +1,791 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+.bg-image{
+    background-image: url(../yoga-header.jpg);
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.box{
+    position: absolute;
+    left: 18%;
+}
+.xyz a:hover{
+    color: #df3ea6;
+}
+.box a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box a:hover{
+    color: rgb(224, 81, 160);
+}
+.box-1{
+    position: absolute;
+    right: 49%;
+    top: 6%;
+}
+.box-2{
+    position: absolute;
+    right: 20%;
+}
+.box-2 a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.box-2 a:hover{
+    color: rgb(224, 81, 160);
+}
+.group{
+    display: flex;
+    padding-top: 4%;
+}
+.stroke{
+    border-bottom: 1px solid #cccbcb;
+    width: 900px;
+    margin-top: 50px;
+}
+.image-text{
+    margin-top: 100px;
+}
+.image-text h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image-text p{
+    text-align: center;
+    color: #fff;
+    padding-top: 17px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image-text button{
+    margin-top: 35px;
+    width: 210px;
+    height: 60px;
+    border: none;
+    border-radius: 2px;
+    background-color: #fe86d4;
+}
+.image-text button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.image-text button a:hover{
+    color: rgb(35, 35, 148);
+}
+.bg-box{
+    width: 100%;
+    height: 80vh;
+}
+.bg-box h1{
+    padding-top: 80px;
+    text-align: center;
+    color: #863ed8;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.bg-box p{
+    text-align: center;
+    color: #7a7777;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.small-bg{
+    display: flex;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 60px;
+    gap: 80px;
+}
+.small-bg a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.letter-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.letter-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.sector{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+}
+.txt-div{
+    background-color: #f8f4f4;
+    width: 50%;
+    padding-left: 210px;
+}
+.txt-div h1{
+    color: #7a3ac4;
+    padding-top: 80px;
+    font-size: 30px;
+}
+.img-div{
+    background-image: url('../the-best-class-yoga.jpg');
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+.paragraph{
+    padding-top: 20px;
+}
+.bar{
+   padding-bottom: 20px;
+   line-height: 28px;
+}
+.bar-1{
+    padding-bottom: 30px;
+    line-height: 39px;
+}
+.paragraph p{
+    color: #7a7777;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background-pic{
+    width: 100%;
+    background-image: url('../advantages-of-yoga.jpg');
+    height: 150vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.row{
+    text-align: center;
+    padding-top: 70px;
+    line-height: 40px;
+}
+.row h1{
+    color: #853dd8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.row p{
+    color: #7a7777;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rw-1{
+    position: absolute;
+    text-align: right;
+    top: 25%;
+    left: 19%;
+}
+.rw-2{
+    position: absolute;
+    text-align: left;
+    right: 20%;
+    top: 25%;
+}
+.rw-3{
+    position: absolute;
+    text-align: right;
+    right: 69%;
+    top: 42%;
+}
+.rw-4{
+    position: absolute;
+    text-align: left;
+    left: 69%;
+    top: 42%;
+}
+.rw-5{
+    position: absolute;
+    text-align: right;
+    right: 76%;
+    top: 58%;
+}
+.rw-6{
+    position: absolute;
+    text-align: left;
+    left: 76%;
+    bottom: 27%;  
+}
+.rw {
+     width: 20%;
+}
+.lnk a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.phrase{
+    color: #7a7777;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+
+}
+.home{
+    width: 100%;
+    background-color: #f8f6f6f6;
+    height: 100vh;
+}
+.home h1{
+    text-align: center;
+    padding-top: 70px;
+}
+.home p{
+    text-align: center;
+    padding-top: 20px;
+}
+.round-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+.round-item {
+    text-align: center;
+}
+
+.round-item img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.round-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.link-text a{
+    text-decoration: none;
+    color: #272727;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+}
+.link-text a:hover{
+    color: #df3ea6;
+}
+.fig{
+    width: 160px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.main-container{
+    width: 100%;
+    height: 140vh;
+}
+.one{
+    text-align: center;
+    padding-top: 85px;
+    color: #863ed8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ppx{
+    text-align: center;
+    padding-top: 15px;
+    color: #666464;
+    font-size: 17px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1.2px;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    /* width: 50%; */
+    margin-left: 100px;
+    
+}
+.container-house{
+    height: 550px;
+    border: 1px solid rgb(92, 90, 90);
+    border-radius: 4px;
+    width: 37%;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.lane{
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.ff{
+    text-align: center;
+    padding-top: 29px;
+    font-size: 30px;
+    word-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #863ed8;
+    padding-bottom: 5px;
+}
+.ppt{
+    text-align: center;
+    color: #8f8e8e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 40px;
+    font-weight: lighter;
+}
+.ipt input{
+    width: 200px;
+    height: 38px;
+    border-radius: 2px solid #8f8e8e;
+    margin-bottom: 10px;
+}
+.ipt ::placeholder{
+    padding-left: 7px;
+}
+.sect input{
+    width: 200px;
+    height: 38px;
+    border-radius: 2px solid #8f8e8e;
+    margin-bottom: 10px;
+}
+.set{
+    width: 200px;
+    height: 38px;
+    border-radius: 2px solid #8f8e8e;
+    margin-bottom: 10px;
+}
+.num input{
+    width: 200px;
+    height: 38px;
+    border-radius: 2px solid #8f8e8e;
+    margin-bottom: 10px;
+
+}
+.num ::placeholder{
+    padding-left: 7px;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.t-area ::placeholder{
+    padding: 15px 0 0 15px;
+}
+.btnn{
+    width: 100%;
+    padding: 20px;
+    background-color: #7b6cd5;
+    border: navy;
+}
+.btnn a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.wkdys{
+    color: #7b6cd5;
+    padding: 0 0 18px 0;
+    padding-left: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+
+}
+.clk{
+    color: #464444;
+    padding-bottom: 14px;
+    padding-left: 18px;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+} 
+.para{
+    padding-bottom: 20px;
+    color: #666464;
+    /* word-spacing: 1px; */
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: 40px;
+    padding-right: 30px;
+}
+.stn{
+    margin-top: 50px;
+    
+}
+.smdiv {
+    width: 35px;
+    height: 38px;
+    background-color: #7b6cd5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    color: white;
+}
+.sect{
+    position: relative;
+}
+.img-container{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(240, 237, 237);
+}
+.img-container h1{
+    text-align: center;
+    padding-top: 60px ;
+    padding-bottom: 15px;
+    color: #7b6cd5;
+    font-size: 29px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.img-container p{
+    text-align: center;
+    color: #777474;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.lst a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.lst a:hover{
+    color: rgb(233, 56, 194);
+}
+.lst-1{
+    font-style: italic;
+    font-size: 70px;
+}
+.item{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+.item h1{
+    padding-top: 50px;
+    font-size: 25px;
+    color: #7b6cd5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item p{
+    padding-top: 13px;
+    letter-spacing: 0.6px;
+    font-size: 18px;
+    color: #8f8e8e;
+    padding-bottom: 45px;
+}
+.bttn-1{
+    padding: 16px 60px ;
+    background-color: #7b6cd5;
+    border: none;
+    border-radius: 2px;
+}
+.bttn-1 a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+.bttn-1 a:hover{
+    color: #f059bb;
+}
+.fone a:hover{
+    color: #f059bb;
+}
+.fone a{
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #7b6cd5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px 0 200px;
+}
+footer p{
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #f059bb;
+}
+.ftter a{
+    padding-right: 10px;
+}
+.ftter img:hover{
+    color: rgb(226, 38, 163);
+}
+@media  screen and (max-width: 491px) {
+    
+    .bg-image{
+        background-image: url(../yoga-header.jpg);
+        width: 100%;
+        height: 95vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .group{
+        margin-left: 150px;
+        padding-top: 4%;
+    }
+    .box-2{
+        position: absolute;
+        left: 120px;
+        top: 140px;
+    }
+    .box-2 a{
+        color: #fff;
+        font-size: 17px;
+        text-decoration: none;
+    }
+    .box{
+        position: absolute;
+        left: 100px;
+        top: 110px;
+    }
+    .box-1{
+        position: absolute;
+        right: 40%;
+        top: 6%;
+    }
+    .image-text h1{
+        font-size: 23px;
+    }
+    .small-bg{
+        display: flex;
+        margin-left: 10%;
+        text-align: center;
+        margin-top: 60px;
+        gap: 80px;
+    }
+    .ttt{
+        width: 12%;
+    }
+    .ttt p{
+        width: 100px;
+    }
+    .small-bg a{
+        color: rgb(22, 22, 22);
+        font-size: 16px;
+    }
+    .bg-box h1{
+        padding-top: 30px;
+       
+    }
+    .small-bg{
+        margin-top: 20px;
+    }
+    .txt-div{
+        background-color: #f8f4f4;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .txt-div h1{
+        color: #7a3ac4;
+        padding-top: 40px;
+        font-size: 25px;
+    }
+    .img-div{
+        background-image: url('../the-best-class-yoga.jpg');
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center right;
+        height: 50vh;
+        margin-left: 15px
+    }
+    .sector{
+        width: 100%;
+        height: 98vh;
+        display: flex none;
+        flex-direction: column;
+        
+    }
+    .paragraph{
+        padding-top: 20px;
+    }
+    .bar{
+       padding-bottom: 20px;
+       line-height: 18px;
+    }
+    .bar-1{
+        padding-bottom: 30px;
+        line-height: 18px;
+    }
+    .paragraph p{
+        color: #7a7777;
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .background-pic{
+        width: 100%;
+        background-image: url('../advantages-of-yoga.jpg');
+        height: 190vh;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .rw-1{
+        position: none;
+        text-align: center;
+        top: 0px;
+        left: 0px;
+    }
+    .rw-2{
+        position: absolute;
+        text-align: center;
+        right: 0px;
+        top: 0px;
+    }
+    .rw-3{
+        position: none;
+        text-align: center;
+        right: 0px;
+        top: 0px;
+    }
+    .rw-4{
+        position: none;
+        text-align: center;
+        left: 0px;
+        top: 0px;
+    }
+    .rw-5{
+        position: none;
+        text-align: center;
+        right: 0px;
+        top: 0px;
+    }
+    .rw-6{
+        position: none;
+        text-align: center;
+        left: 0px;
+        bottom: 0px;  
+    }
+    .rw-1, .rw-2, .rw-3, .rw-4, .rw-5, .rw-6 {
+        position: static; 
+        margin: 0px auto; 
+        width: 100%; 
+        align-items: center;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .background-pic {
+        /* height: 100vh; */
+        padding-top: 50px; 
+    }
+    .pitch{
+        height: 50vh;
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .ovr-lay{
+            position: absolute;
+            width: 100%;
+            height: 190vh;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        .lnk a{
+            color: #f864c4;
+            text-decoration: none;
+            font-size: 19px;
+            font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: normal;
+        
+        }
+        .phrase{
+            color: #f7f2f2;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 17px;
+            line-height: 25px;
+            width: 97%;
+        
+        }
+        .row h1{
+            color: #f864c4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30px;
+        }
+        .row p{
+            color: #f7f2f2;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width:90%;
+        }
+        .stroke{
+            border-bottom: 1px solid #cccbcb;
+            width: 900px;
+            margin-top: 100px;
+        }
+
+}
